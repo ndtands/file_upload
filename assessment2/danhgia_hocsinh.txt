@@ -1,0 +1,21 @@
+Ma HS,Ma HS,xeploai_TB chuan,xeploai_A,xeploai_A1,xeploai_B,xeploai_C,xeploai_D
+Anh;Gioi;1;1;1;1;1
+Tam;TB;1;1;1;1;1
+Hang;TB Kha;1;1;1;1;1
+An;TB;2;2;2;1;2
+Nga;TB Kha;2;2;2;1;1
+Vu;Kha;2;2;2;1;1
+Hoang;Kha;2;2;2;1;1
+Tien;Kha;2;1;2;1;1
+Kien;TB Kha;2;2;2;1;1
+Dao;Kha;2;1;2;1;1
+Hien;Kha;2;1;2;1;1
+Hong;Kha;2;2;2;1;1
+Huong;Kha;2;2;1;1;1
+Tinh;TB;2;2;2;1;1
+Toan;Kha;2;2;2;1;1
+Dat;Xuat sac;1;1;1;1;1
+Hoa;Kha;2;2;2;1;1
+Phuc;TB;2;2;2;1;2
+Loc;TB;2;2;2;1;2
+Tho;Gioi;1;1;1;1;1
