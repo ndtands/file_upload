@@ -112,7 +112,7 @@ def xeploai_thidaihoc_hocsinh(dir):
         #Khoi C
         danhgia["C"]= 1 if (C >= 21) else 2 if (C <21 or C>=15) else 3 if(C<15 or C>=12) else 4
         #Khoi D
-        danhgia["D"]= 1 if (D >= 32) else 2 if (D <32 or D>=24) else 3 if(D<24 or A>=20) else 4
+        danhgia["D"]= 1 if (D >= 32) else 2 if (D <32 or D>=24) else 3 if(D<24 or D>=20) else 4
 
         out[name]=list(danhgia.values())
     f.close()
@@ -136,7 +136,7 @@ def main(dir,direct):
     _filedir        = direct +"danhgia_hocsinh.txt"
     _f              = open(_filedir,"w")
     line1 = ["Ma HS","xeploai_TB chuan","xeploai_A","xeploai_A1","xeploai_B","xeploai_C","xeploai_D"]
-    Line1    ="Ma HS,"+",".join(line1)+"\n"
+    Line1    =",".join(line1)+"\n"
     _f.write(Line1)
     for name in xeploai:
         line = name+";"+xeploai[name]+";"+";".join([str(int) for int in xeploai_daihoc[name]])+"\n"
